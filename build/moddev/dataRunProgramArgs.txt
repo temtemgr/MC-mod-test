@@ -1,0 +1,17 @@
+# Main Class
+net.neoforged.fml.startup.DataClient
+
+# NeoForge Run-Type Program Arguments
+--assetIndex
+34
+--assetsDir
+/home/maria/.gradle/caches/neoformruntime/assets
+
+# User Supplied Program Arguments
+--mod
+textmcmod
+--all
+--output
+/home/maria/Projects/MC-mod-test/src/generated/resources
+--existing
+/home/maria/Projects/MC-mod-test/src/main/resources

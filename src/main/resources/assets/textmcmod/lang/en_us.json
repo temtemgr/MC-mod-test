@@ -1,0 +1,13 @@
+{
+  "itemGroup.textmcmod": "Example Mod Tab",
+  "block.textmcmod.example_block": "Example Block",
+  "item.textmcmod.example_item": "Example Item",
+
+  "textmcmod.configuration.title": "TextMCMod Configs",
+  "textmcmod.configuration.section.textmcmod.common.toml": "TextMCMod Configs",
+  "textmcmod.configuration.section.textmcmod.common.toml.title": "TextMCMod Configs",
+  "textmcmod.configuration.items": "Item List",
+  "textmcmod.configuration.logDirtBlock": "Log Dirt Block",
+  "textmcmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "textmcmod.configuration.magicNumber": "Magic Number"
+}

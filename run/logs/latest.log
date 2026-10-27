@@ -1,0 +1,99 @@
+[25Oct2026 13:37:18.305] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 55ms
+[25Oct2026 13:37:18.316] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 12.0.12 (CLIENT in DEV)
+[25Oct2026 13:37:18.316] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /home/maria/Projects/MC-mod-test/run
+[25Oct2026 13:37:18.352] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 98) in 14ms
+[25Oct2026 13:37:18.352] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[25Oct2026 13:37:18.352] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/maria/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/12.0.12/8437387fd35033b1ea0d3fac7cc28ced4efdc6b/earlydisplay-12.0.12.jar
+[25Oct2026 13:37:18.353] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/maria/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/12.0.12/f097a25d6289aa0b289e7cdb6de83a5c8c72f77e/loader-12.0.12.jar
+[25Oct2026 13:37:18.356] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because splash screen is disabled
+[25Oct2026 13:37:18.387] [ForkJoinPool.commonPool-worker-3/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[25Oct2026 13:37:18.465] [ForkJoinPool.commonPool-worker-3/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates textmcmod%%/home/maria/Projects/MC-mod-test/build/classes/java/main:textmcmod%%/home/maria/Projects/MC-mod-test/build/resources/main from env
+[25Oct2026 13:37:18.558] [ForkJoinPool.commonPool-worker-3/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[25Oct2026 13:37:18.559] [ForkJoinPool.commonPool-worker-3/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 26.3 (minecraft)
+		NeoForge 26.3.0.99 (neoforge)
+		TextMCMod 1.0.0 (textmcmod)
+[25Oct2026 13:37:18.705] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/maria/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/5f66cc9f59b8efaa942155a3d5a30599bf6640dd/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=FML Env=CLIENT
+[25Oct2026 13:37:18.720] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[25Oct2026 13:37:18.721] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/maria/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.3.0.99/215117e7a679a38b75f88b5d4254adaffd596452/neoforge-26.3.0.99-universal.jar > net.neoforged.neoforge-coremods-26.3.0.99.jar
+[25Oct2026 13:37:18.814] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(filtered(jar(/home/maria/Projects/MC-mod-test/build/moddev/artifacts/minecraft-patched-26.3.0.99.jar)), filtered(jar(/home/maria/Projects/MC-mod-test/build/moddev/artifacts/minecraft-patched-26.3.0.99.jar))))
+ - mixinextras.neoforge (jar(/home/maria/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.3.0.99/215117e7a679a38b75f88b5d4254adaffd596452/neoforge-26.3.0.99-universal.jar > mixinextras-neoforge-0.5.5.jar))
+ - neoforge (composite(filtered(jar(/home/maria/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.3.0.99/215117e7a679a38b75f88b5d4254adaffd596452/neoforge-26.3.0.99-universal.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+ - textmcmod (composite(folder(/home/maria/Projects/MC-mod-test/build/classes/java/main), folder(/home/maria/Projects/MC-mod-test/build/resources/main)))
+[25Oct2026 13:37:18.829] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 27ms
+[25Oct2026 13:37:19.955] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[25Oct2026 13:37:20.012] [Datafixer Bootstrap #0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 310 Datafixer optimizations took 257 milliseconds
+[25Oct2026 13:37:23.222] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:37:23.225] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:37:23.228] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Oct2026 13:37:23.231] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Oct2026 13:37:23.234] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:37:23.237] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, set, time] and [time, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[25Oct2026 13:37:23.239] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, set, timemarker] and [time, set, time] with inputs: [012]
+[25Oct2026 13:37:23.243] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, of, clock, set, time] and [time, of, clock, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[25Oct2026 13:37:23.245] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [time, of, clock, set, timemarker] and [time, of, clock, set, time] with inputs: [012]
+[25Oct2026 13:37:23.296] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.3.0.99, for MC 26.3
+[25Oct2026 13:37:23.657] [Render thread/INFO] [com.mojang.authlib.services.MinecraftServicesDiscoveryService/]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[25Oct2026 13:37:23.666] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25Oct2026 13:37:23.739] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.4.3+4
+[25Oct2026 13:37:23.739] [Render thread/WARN] [net.minecraft.client.Minecraft/]: Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[25Oct2026 13:37:23.766] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [SYSTEM]: App name: Minecraft
+[25Oct2026 13:37:23.766] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [SYSTEM]: App version: 26.3
+[25Oct2026 13:37:23.766] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [SYSTEM]: App ID: com.mojang.minecraft
+[25Oct2026 13:37:23.766] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [SYSTEM]: SDL revision: SDL-3.4.14--128-NOTFOUND
+[25Oct2026 13:37:23.768] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [VIDEO]: This compositor lacks support for the fifo-v1 protocol; falling back to XWayland for GPU performance reasons (set SDL_VIDEO_DRIVER=wayland to override)
+[25Oct2026 13:37:23.771] [Render thread/INFO] [com.mojang.blaze3d.platform.SdlDebug/]: SDL [VIDEO]: Detected XWayland
+[25Oct2026 13:37:23.838] [Render thread/WARN] [net.minecraft.client.Minecraft/]: Detected unexpected shutdown during last game startup: forcing preferred graphics API to OpenGL
+[25Oct2026 13:37:23.848] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to create backend OpenGL
+com.mojang.renderpearl.api.device.BackendCreationException: OpenGL is not supported: Could not retrieve OpenGL functions
+	at TRANSFORMER/minecraft@26.3/com.mojang.renderpearl.backend.opengl.GlBackend.loadLibrary(GlBackend.java:39) ~[minecraft-patched-26.3.0.99.jar:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.Minecraft.<init>(Minecraft.java:494) [minecraft-patched-26.3.0.99.jar:?]
+	at TRANSFORMER/minecraft@26.3/net.minecraft.client.main.Main.main(Main.java:280) [minecraft-patched-26.3.0.99.jar:?]
+	at net.neoforged.fml.startup.Client.main(Client.java:19) [loader-12.0.12.jar:12.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[25Oct2026 13:37:24.068] [Render thread/INFO] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/]: Enabling optional FeatureSet [AMD Buffer Marker]
+[25Oct2026 13:37:24.069] [Render thread/INFO] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/]: Enabling optional FeatureSet [EXT MultiDraw]
+[25Oct2026 13:37:24.069] [Render thread/INFO] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/]: Optional FeatureSet [NV Diagnostic Checkpoint] supported but device condition failed and will not be enabled
+[25Oct2026 13:37:24.069] [Render thread/INFO] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/]: Enabling optional FeatureSet [Wireframe]
+[25Oct2026 13:37:24.069] [Render thread/INFO] [com.mojang.renderpearl.backend.vulkan.VulkanBackend/]: Enabling optional FeatureSet [Calibrated Timestamps]
+[25Oct2026 13:37:24.295] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using graphics backend Vulkan, using drivers: 1.4.312 NVIDIA 580.119.02
+[25Oct2026 13:37:24.296] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using graphics device: NVIDIA GeForce RTX 2060 (NVIDIA)
+[25Oct2026 13:37:24.296] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Using graphics device extensions: VK_EXT_calibrated_timestamps (D), VK_KHR_synchronization2 (D), VK_EXT_multi_draw (D), VK_AMD_buffer_marker (D), VK_EXT_vertex_attribute_divisor (D), VK_KHR_swapchain (D), VK_KHR_surface (I), VK_KHR_push_descriptor (D), VK_KHR_xlib_surface (I), VK_EXT_debug_utils (I), VK_KHR_dynamic_rendering (D)
+[25Oct2026 13:37:24.302] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: Created window using SDL video driver: x11
+[25Oct2026 13:37:24.851] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: HELLO FROM COMMON SETUP
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: DIRT BLOCK >> minecraft:dirt
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: The magic number is... 42
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: ITEM >> minecraft:iron_ingot
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.VersionChecker/]: No mods enabled for version check
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: HELLO FROM CLIENT SETUP
+[25Oct2026 13:37:24.852] [modloading-worker-0/INFO] [com.temtemgrr.testmcmod.TextMCMod/]: MINECRAFT NAME >> Dev
+[25Oct2026 13:37:24.893] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, vanilla, mod_resources, mod/textmcmod, mod/neoforge
+[25Oct2026 13:37:25.043] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_pua-17.0.01.hex, loading
+[25Oct2026 13:37:25.050] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-17.0.01.hex, loading
+[25Oct2026 13:37:25.071] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-17.0.01.hex, loading
+[25Oct2026 13:37:26.075] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing model for variant: 'Block{textmcmod:example_block}'
+[25Oct2026 13:37:26.158] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device HyperX 7.1 Audio Analog Stereo
+[25Oct2026 13:37:26.162] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[25Oct2026 13:37:26.162] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[25Oct2026 13:37:26.191] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[25Oct2026 13:37:26.192] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[25Oct2026 13:37:26.193] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25Oct2026 13:37:26.195] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[25Oct2026 13:37:26.196] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[25Oct2026 13:37:26.197] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[25Oct2026 13:37:26.278] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[25Oct2026 13:37:26.287] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[25Oct2026 13:37:26.292] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[25Oct2026 13:37:26.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[25Oct2026 13:37:26.294] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25Oct2026 13:37:26.364] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[25Oct2026 13:37:41.731] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[25Oct2026 13:37:41.893] [Render thread/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 61ab2bcc
+[25Oct2026 13:37:41.893] [Render thread/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
